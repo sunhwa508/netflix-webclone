@@ -1,0 +1,73 @@
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.header{
+    margin-bottom: 250px;
+}
+.header img{
+    width:150px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.container{
+    text-align: center;
+    color:#fff;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.container h2{
+    font-size:50px;
+}
+
+.container .account a {
+    position: relative;
+    margin-bottom: 100px;
+    padding-right: 30px;
+
+}
+
+.container .account a:hover img{
+    border: 5px solid #fff;
+    margin:  -5px;
+
+}
+.container .account a:hover em{
+    color: #fff;
+}
+
+.container .account a em{
+    position: absolute;
+    top:50%; left:25%;
+    color:#fff;
+    font-style:normal;
+    color:rgb(96, 95, 95);
+    font-size:23px;
+    letter-spacing: -1px;
+    padding-top: 15px;
+}
+
+
+.container span{
+    display: inline-block;
+    border:1px solid rgb(96, 95, 95);;
+    padding: 5px 30px;
+    margin-top:100px;
+    text-transform: uppercase;
+    color:rgb(96, 95, 95);
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+@media only screen and (max-width: 700px) {
+    .header img{width:120px; padding: 0; position: relative;}
+    .header {margin: 10px; margin-bottom: 30px; margin-top: 90px; text-align: center;}
+    .container h2 {font-size:25px; margin-bottom: 39px; font-weight: 300}
+    .container .account{padding: 0 15px;}
+    .container .account a{padding: 8px; display: inline-block; margin-bottom: 30px;}
+    .container .account a img{width:130px; height: 130px;}
+    .container .account a em{font-size:18px; padding: 5px; top:135px; color:#fff; left:30%;}
+    .container span{font-size:11px; margin-top:40px;}
+    .header p{color:white; position: absolute;top:20px; right:20px; font-weight: bold;}
+    .container span{display:none;}
+}
